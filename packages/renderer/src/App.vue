@@ -12,6 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <span/>
     <img style="height:140px;" src="./assets/vue.png" >
   </div>
+  <router-view/>
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <div class="static-public">
     Place static files into the <code>src/renderer/public</code> folder
